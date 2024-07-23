@@ -39,7 +39,7 @@ def process_image(image, format, size=None):
         return None
 
 # Título do aplicativo
-st.title("Conversor de Imagens")
+st.title("Conversor de Imagens 📸")
 
 # Upload da imagem
 uploaded_file = st.file_uploader("Escolha uma imagem", type=["png", "jpg", "jpeg", "bmp", "tiff", "gif", "webp", "ico"])
